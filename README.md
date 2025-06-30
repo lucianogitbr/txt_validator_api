@@ -9,4 +9,12 @@ npm install
 npm start
 ```
 
-Set `MONGODB_URI` in your environment to configure the database connection.
+## Docker
+
+You can run the application and MongoDB using Docker Compose:
+
+```bash
+docker-compose up --build
+```
+
+The API will be available at `http://localhost:3000` and MongoDB at `mongodb://localhost:27017`.
